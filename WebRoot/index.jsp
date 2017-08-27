@@ -20,9 +20,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	-->
   </head>
   
-  <body>
-  	
-  	
-    
+  <body onload="loadProvince(1,'');">
+   请选择省份：<select><option>请选择</option></select>
+   请选择市：<select><option>请选择</option></select>
+   请选择区县：<select><option>请选择</option></select>
+   请选择乡镇：<select><option>请选择</option></select>
+   请选择居委会：<select><option>请选择</option></select>
   </body>
 </html>
